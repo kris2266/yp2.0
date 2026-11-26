@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>о нас</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="onasstyle.css">
+    <link rel="icon" type="image/svg+xml" href="photos/flower.svg">
+</head>
+<body>
+    <header class="header">
+        <div class="bg-animation">
+            <div class="floating-flower" style="left: 5%; animation-duration: 12s; animation-delay: 0s;"></div>
+            <div class="floating-flower" style="left: 25%; animation-duration: 16s; animation-delay: 3s;"></div>
+            <div class="floating-flower" style="left: 45%; animation-duration: 14s; animation-delay: 1s;"></div>
+            <div class="floating-flower" style="left: 65%; animation-duration: 18s; animation-delay: 5s;"></div>
+            <div class="floating-flower" style="left: 85%; animation-duration: 15s; animation-delay: 2s;"></div>
+        </div>
+
+        <div class="logo">HANDY</div>
+
+        <a href="/login.html" class="login" style="visibility: hidden;">
+            <span class="user-icon"></span>
+            <span class="login-text">ВОЙТИ</span>
+        </a>
+
+        <div class="flower flower-left"></div>
+        <div class="flower flower-right"></div>
+    </header>
+
+    <nav class="nav-menu">
+        <a href="index.html" class="menu-btn" data-text="главная">главная</a>
+        <a href="onas.html" class="menu-btn active" data-text="о нас">о нас</a>
+        <a href="masters.html" class="menu-btn" data-text="мастера">мастера</a>
+        <a href="yslygi.html" class="menu-btn" data-text="услуги">услуги</a>
+    </nav>
+
+    <section class="history-section">
+        <div class="history-header">
+            <div class="history-gif history-gif-left">
+                <img src="photos/dance-bunny.gif" alt="">
+            </div>
+            <div class="history-title">
+                <svg viewBox="0 0 600 120" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <path id="historyCurve" d="M 60,90 Q 300,10 540,90" fill="none" />
+                    </defs>
+                    <text>
+                        <textPath href="#historyCurve" startOffset="50%" text-anchor="middle">наша история</textPath>
+                    </text>
+                </svg>
+            </div>
+            <div class="history-gif history-gif-right">
+                <img src="photos/dance-bunny.gif" alt="">
+            </div>
+        </div>
+
+        <div class="history-frame">
+            <div class="bg-animation">
+                <div class="floating-flower" style="left: 5%;  animation-duration: 12s; animation-delay: 0s;"></div>
+                <div class="floating-flower" style="left: 25%; animation-duration: 16s; animation-delay: 3s;"></div>
+                <div class="floating-flower" style="left: 45%; animation-duration: 14s; animation-delay: 1s;"></div>
+                <div class="floating-flower" style="left: 65%; animation-duration: 18s; animation-delay: 5s;"></div>
+                <div class="floating-flower" style="left: 85%; animation-duration: 15s; animation-delay: 2s;"></div>
+            </div>
+
+            <div class="history-caption">начинали с маленького салона на окраине</div>
+
+            <div class="history-photo">
+                <video class="video-placeholder" autoplay loop muted playsinline>
+                    <source src="0931720b444207a58401d653c1fafd0e_720w.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+
+            <div class="history-flower"></div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="map-frame">
+            <div class="bg-animation">
+                <div class="floating-flower" style="left: 5%;  animation-duration: 12s; animation-delay: 0s;"></div>
+                <div class="floating-flower" style="left: 25%; animation-duration: 16s; animation-delay: 3s;"></div>
+                <div class="floating-flower" style="left: 45%; animation-duration: 14s; animation-delay: 1s;"></div>
+                <div class="floating-flower" style="left: 65%; animation-duration: 18s; animation-delay: 5s;"></div>
+                <div class="floating-flower" style="left: 85%; animation-duration: 15s; animation-delay: 2s;"></div>
+            </div>
+
+            <div class="map-caption">затем начали открывать точки повсему городу</div>
+
+            <div class="map-container" id="yandex-map"></div>
+
+            <div class="map-flower"></div>
+        </div>
+    </section>
+
+    <section class="franchise-section">
+        <div class="franchise-frame">
+            <div class="bg-animation">
+                <div class="floating-flower" style="left: 5%;  animation-duration: 12s; animation-delay: 0s;"></div>
+                <div class="floating-flower" style="left: 25%; animation-duration: 16s; animation-delay: 3s;"></div>
+                <div class="floating-flower" style="left: 45%; animation-duration: 14s; animation-delay: 1s;"></div>
+                <div class="floating-flower" style="left: 65%; animation-duration: 18s; animation-delay: 5s;"></div>
+                <div class="floating-flower" style="left: 85%; animation-duration: 15s; animation-delay: 2s;"></div>
+            </div>
+
+            <div class="franchise-flower"></div>
+
+            <div class="franchise-caption-row">
+                <div class="franchise-gif franchise-gif-left">
+                    <img src="photos/dance-bunny.gif" alt="">
+                </div>
+                <div class="franchise-caption">теперь у нас огромная франшиза</div>
+                <div class="franchise-gif franchise-gif-right">
+                    <img src="photos/dance-bunny.gif" alt="">
+                </div>
+            </div>
+
+            <div class="franchise-gallery">
+                <div class="franchise-photo"><img src="photos/franshiza1.webp" alt=""></div>
+                <div class="franchise-photo"><img src="photos/franshiza2.jpg" alt=""></div>
+                <div class="franchise-photo"><img src="photos/franshiza3.webp" alt=""></div>
+                <div class="franchise-photo"><img src="photos/franshiza4.webp" alt=""></div>
+                <div class="franchise-photo"><img src="photos/franshiza5.webp" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews-section">
+        <div class="reviews-header">
+            <div class="reviews-gif"><img src="photos/gif2.jpg" alt=""></div>
+            <div class="reviews-title">
+                <svg viewBox="0 0 600 120" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <path id="reviewsCurve" d="M 60,90 Q 300,10 540,90" fill="none" />
+                    </defs>
+                    <text>
+                        <textPath href="#reviewsCurve" startOffset="50%" text-anchor="middle">отзывы</textPath>
+                    </text>
+                </svg>
+            </div>
+            <div class="reviews-gif"><img src="photos/gif2.jpg" alt=""></div>
+        </div>
+
+        <div class="reviews-frame">
+            <div class="bg-animation">
+                <div class="floating-flower" style="left: 5%;  animation-duration: 12s; animation-delay: 0s;"></div>
+                <div class="floating-flower" style="left: 25%; animation-duration: 16s; animation-delay: 3s;"></div>
+                <div class="floating-flower" style="left: 45%; animation-duration: 14s; animation-delay: 1s;"></div>
+                <div class="floating-flower" style="left: 65%; animation-duration: 18s; animation-delay: 5s;"></div>
+                <div class="floating-flower" style="left: 85%; animation-duration: 15s; animation-delay: 2s;"></div>
+            </div>
+
+            <div class="reviews-grid" id="reviewsGrid"></div>
+            <div class="reviews-pagination" id="reviewsPagination"></div>
+            <button class="reviews-write-btn" id="openReviewModal">написать отзыв</button>
+
+            <div class="reviews-flower reviews-flower-bl"></div>
+            <div class="reviews-flower reviews-flower-tl"></div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="reviewModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeReviewModal">&times;</button>
+            <h3 class="modal-title">оставить отзыв</h3>
+
+            <form class="booking-form" id="reviewForm">
+                <div class="form-group">
+                    <label for="review-name">Ваше имя / ник</label>
+                    <input type="text" id="review-name" placeholder="имя" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="review-rating">Оценка</label>
+                    <select id="review-rating" required>
+                        <option value="" disabled selected>выберите</option>
+                        <option value="5">★★★★★ (5)</option>
+                        <option value="4">★★★★ (4)</option>
+                        <option value="3">★★★ (3)</option>
+                        <option value="2">★★ (2)</option>
+                        <option value="1">★ (1)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="review-text">Текст отзыва</label>
+                    <textarea id="review-text" rows="4" placeholder="Расскажите о вашем визите..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="locations-section">
+        <div class="section-header">
+            <h2 class="portfolio-title">адреса</h2>
+        </div>
+
+        <div class="map-wrapper">
+            <div class="map-container" id="yandex-map-russia"></div>
+            <div class="map-flower-russia"></div>
+        </div>
+
+        <div class="info-row">
+            <div class="addresses-block">
+                <p class="info-label">Адреса главных офисов:</p>
+                <p class="address-line">г.Москва, ул.Московская 67</p>
+                <p class="address-line">г.Москва, ул.Арбатская 52</p>
+            </div>
+
+            <div class="gif-block">
+                <img class="zayac" src="photos/gifcat.webp" alt="">
+            </div>
+        </div>
+
+        <div class="section-header contacts-header">
+            <h2 class="portfolio-title">контакты</h2>
+        </div>
+
+        <div class="contacts-buttons">
+            <div class="pill-btn">
+                <img src="photos/gif3.gif" alt="" class="pill-gif">
+                <span>+7 777 777 77 77</span>
+                <img src="photos/gif3.gif" alt="" class="pill-gif">
+            </div>
+            <div class="pill-btn">
+                <img src="photos/gif4.gif" alt="" class="pill-gif">
+                <span>pochta@mail.ru</span>
+                <img src="photos/gif4.gif" alt="" class="pill-gif">
+            </div>
+        </div>
+
+        <div class="social-grid">
+            <div class="social-item">
+                <div class="social-icon vk">
+                    <svg viewBox="0 0 24 24"><path d="M13.1 16.2c-5.9 0-9.8-4.2-9.9-11.2h3.1c.1 5.1 2.4 7.3 4.1 7.7V5h2.9v6.6c1.8-.2 3.5-2.3 4.2-4.5h2.9c-.5 2.5-2.3 4.5-3.7 5.3 1.4.6 3.4 2.4 4.1 5.3h-3.2c-.7-2.2-2.4-3.9-4.3-4.1v4.1h-.2z"/></svg>
+                </div>
+                <span class="social-text">Handy сообщество</span>
+            </div>
+
+            <div class="social-item">
+                <div class="social-icon tg">
+                    <svg viewBox="0 0 24 24"><path d="M21.5 4.3 2.9 11.6c-1 .4-1 1.3-.2 1.6l4.7 1.5 1.8 5.6c.2.6.4.8 1 .8.5 0 .7-.2 1-.5l2.4-2.3 4.8 3.6c.9.5 1.5.2 1.7-.8l3.1-14.7c.3-1.3-.5-1.9-1.5-1.4z"/></svg>
+                </div>
+                <span class="social-text">@Handy</span>
+            </div>
+
+            <div class="social-item">
+                <div class="social-icon ig">
+                    <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+                </div>
+                <span class="social-text">@Handy_11032</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="bg-animation">
+            <div class="floating-flower" style="left: 8%;  animation-duration: 13s; animation-delay: 0s;"></div>
+            <div class="floating-flower" style="left: 30%; animation-duration: 17s; animation-delay: 2s;"></div>
+            <div class="floating-flower" style="left: 52%; animation-duration: 15s; animation-delay: 4s;"></div>
+            <div class="floating-flower" style="left: 74%; animation-duration: 19s; animation-delay: 1s;"></div>
+            <div class="floating-flower" style="left: 92%; animation-duration: 16s; animation-delay: 3s;"></div>
+        </div>
+
+        <div class="footer-logo">HANDY</div>
+
+        <div class="footer-content">
+            <div class="footer-contacts">
+                <a class="footer-line">+7 777 777 77 77</a>
+                <a class="footer-line">pochta@mail.ru</a>
+
+                <p class="footer-line footer-gap">Адреса главных офисов:</p>
+                <p class="footer-line">г.Москва, ул.Московская 67</p>
+                <p class="footer-line">г.Москва, ул.Арбатская 52</p>
+
+                <p class="footer-line footer-gap">Соц. сети:</p>
+
+                <div class="footer-social">
+                    <a href="#" class="social-btn" aria-label="ВКонтакте">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M13.1 16.2c-5.9 0-9.8-4.2-9.9-11.2h3.1c.1 5.1 2.4 7.3 4.1 7.7V5h2.9v6.6c1.8-.2 3.5-2.3 4.2-4.5h2.9c-.5 2.5-2.3 4.5-3.7 5.3 1.4.6 3.4 2.4 4.1 5.3h-3.2c-.7-2.2-2.4-3.9-4.3-4.1v4.1h-.2z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="Telegram">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M21.5 4.3 2.9 11.6c-1 .4-1 1.3-.2 1.6l4.7 1.5 1.8 5.6c.2.6.4.8 1 .8.5 0 .7-.2 1-.5l2.4-2.3 4.8 3.6c.9.5 1.5.2 1.7-.8l3.1-14.7c.3-1.3-.5-1.9-1.5-1.4z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="17.5" cy="6.5" r="1.5"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=ВАШ_API_КЛЮЧ" type="text/javascript"></script>
+
+    <script>
+        ymaps.ready(function () {
+            var myMapRussia = new ymaps.Map("yandex-map-russia", {
+                center: [61.5240, 105.3188],
+                zoom: 3,
+                controls: ['zoomControl', 'fullscreenControl']
+            });
+
+            var cities = [
+                { coords: [55.7558, 37.6173], title: 'Москва' },
+                { coords: [59.9343, 30.3351], title: 'Санкт-Петербург' },
+                { coords: [55.0084, 82.9357], title: 'Новосибирск' },
+                { coords: [56.8389, 60.6057], title: 'Екатеринбург' },
+                { coords: [56.3269, 44.0059], title: 'Нижний Новгород' },
+                { coords: [55.7963, 49.1088], title: 'Казань' },
+                { coords: [55.1644, 61.4368], title: 'Челябинск' },
+                { coords: [53.1959, 50.1002], title: 'Самара' },
+                { coords: [54.7388, 55.9721], title: 'Уфа' },
+                { coords: [55.0302, 82.9204], title: 'Омск' },
+                { coords: [56.0153, 92.8932], title: 'Красноярск' },
+                { coords: [58.0105, 56.2502], title: 'Пермь' },
+                { coords: [57.1522, 65.5272], title: 'Тюмень' },
+                { coords: [51.7682, 39.1887], title: 'Воронеж' },
+                { coords: [48.7861, 44.7797], title: 'Волгоград' },
+                { coords: [47.2357, 39.7015], title: 'Ростов-на-Дону' },
+                { coords: [53.0409, 158.6772], title: 'Петропавловск-Камчатский' },
+                { coords: [43.1155, 131.8855], title: 'Владивосток' },
+                { coords: [43.5855, 39.7231], title: 'Сочи' },
+                { coords: [44.9521, 34.1024], title: 'Симферополь' },
+                { coords: [45.0355, 38.9753], title: 'Краснодар' },
+                { coords: [48.7071, 44.5169], title: 'Волжский' },
+                { coords: [56.8527, 60.5988], title: 'Саратов' },
+                { coords: [57.6261, 39.8845], title: 'Ярославль' },
+                { coords: [59.2205, 39.8915], title: 'Вологда' },
+                { coords: [58.5213, 31.2710], title: 'Великий Новгород' },
+                { coords: [56.4977, 84.9744], title: 'Томск' },
+                { coords: [53.3481, 83.7798], title: 'Барнаул' },
+                { coords: [54.9923, 73.3686], title: 'Красноярск (2)' },
+                { coords: [54.3091, 48.3920], title: 'Ульяновск' },
+                { coords: [53.2001, 45.0010], title: 'Пенза' },
+                { coords: [52.6102, 39.5947], title: 'Липецк' },
+                { coords: [52.9651, 36.0652], title: 'Орел' },
+                { coords: [54.5293, 36.2754], title: 'Калуга' },
+                { coords: [56.1286, 40.3965], title: 'Владимир' },
+                { coords: [57.0436, 40.9720], title: 'Иваново' },
+                { coords: [56.3269, 44.0059], title: 'Нижний Новгород (2)' },
+                { coords: [56.3143, 43.9913], title: 'Дзержинск' },
+                { coords: [56.3581, 44.0081], title: 'Кстово' },
+                { coords: [54.9884, 73.3686], title: 'Омск (2)' },
+                { coords: [55.3540, 86.0872], title: 'Кемерово' },
+                { coords: [53.7580, 87.1360], title: 'Новокузнецк' },
+                { coords: [52.8956, 87.1865], title: 'Междуреченск' },
+                { coords: [51.6599, 39.2045], title: 'Воронеж (2)' },
+                { coords: [50.5941, 36.5866], title: 'Белгород' },
+                { coords: [51.7304, 36.1928], title: 'Курск' },
+                { coords: [52.5873, 33.7717], title: 'Брянск' },
+                { coords: [54.7818, 32.0402], title: 'Смоленск' },
+                { coords: [56.8587, 35.9176], title: 'Тверь' },
+                { coords: [58.5213, 31.2710], title: 'Великий Новгород (2)' }
+            ];
+
+            cities.forEach(function (city) {
+                myMapRussia.geoObjects.add(new ymaps.Placemark(city.coords, {
+                    balloonContent: 'HANDY — ' + city.title,
+                    hintContent: 'HANDY — ' + city.title
+                }, {
+                    preset: 'islands#pinkIcon'
+                }));
+            });
+        });
+
+        ymaps.ready(function () {
+            var myMap = new ymaps.Map("yandex-map", {
+                center: [55.751244, 37.618423],
+                zoom: 11,
+                controls: ['zoomControl', 'fullscreenControl']
+            });
+
+            var points = [
+                { coords: [55.755826, 37.617300], title: 'HANDY на Тверской' },
+                { coords: [55.760180, 37.618600], title: 'HANDY на Арбате' },
+                { coords: [55.741200, 37.615600], title: 'HANDY на Патриарших' },
+                { coords: [55.731500, 37.602800], title: 'HANDY на Фрунзенской' },
+                { coords: [55.768800, 37.596800], title: 'HANDY на Красной Пресне' },
+                { coords: [55.749500, 37.539500], title: 'HANDY в Сити' },
+                { coords: [55.788500, 37.562500], title: 'HANDY на Динамо' },
+                { coords: [55.720000, 37.650000], title: 'HANDY на Таганской' }
+            ];
+
+            points.forEach(function (point) {
+                myMap.geoObjects.add(new ymaps.Placemark(point.coords, {
+                    balloonContent: point.title,
+                    hintContent: point.title
+                }, {
+                    preset: 'islands#pinkIcon'
+                }));
+            });
+        });
+
+        (function () {
+            let reviews = [];
+            const ITEMS_PER_PAGE = 2;
+            let currentPage = 1;
+
+            const grid = document.getElementById('reviewsGrid');
+            const pagination = document.getElementById('reviewsPagination');
+            const modal = document.getElementById('reviewModal');
+            const openBtn = document.getElementById('openReviewModal');
+            const closeBtn = document.getElementById('closeReviewModal');
+            const form = document.getElementById('reviewForm');
+
+            function renderStars(rating) {
+                return '★'.repeat(rating) + '☆'.repeat(5 - rating);
+            }
+
+            function renderReviews() {
+                const totalPages = Math.ceil(reviews.length / ITEMS_PER_PAGE);
+                if (currentPage > totalPages) currentPage = totalPages || 1;
+
+                const start = (currentPage - 1) * ITEMS_PER_PAGE;
+                const pageReviews = reviews.slice(start, start + ITEMS_PER_PAGE);
+
+                if (reviews.length === 0) {
+                    grid.innerHTML = '<p style="text-align: center; width: 100%; color: #bd83a7;">Пока нет отзывов. Будьте первыми!</p>';
+                    pagination.innerHTML = '';
+                    return;
+                }
+
+                grid.innerHTML = pageReviews.map(r => `
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <span class="review-author">${r.author}</span>
+                            <span class="review-stars">${renderStars(r.rating)}</span>
+                        </div>
+                        <div class="review-text">${r.text}</div>
+                    </article>
+                `).join('');
+
+                renderPagination(totalPages);
+            }
+
+            function renderPagination(totalPages) {
+                pagination.innerHTML = '';
+                if (totalPages <= 1) return;
+
+                const prevBtn = document.createElement('button');
+                prevBtn.className = 'page-btn';
+                prevBtn.textContent = '←';
+                prevBtn.disabled = currentPage === 1;
+                prevBtn.addEventListener('click', () => {
+                    if (currentPage > 1) { currentPage--; renderReviews(); }
+                });
+                pagination.appendChild(prevBtn);
+
+                for (let i = 1; i <= totalPages; i++) {
+                    const btn = document.createElement('button');
+                    btn.className = 'page-btn' + (i === currentPage ? ' active' : '');
+                    btn.textContent = i;
+                    btn.addEventListener('click', () => {
+                        currentPage = i;
+                        renderReviews();
+                    });
+                    pagination.appendChild(btn);
+                }
+
+                const nextBtn = document.createElement('button');
+                nextBtn.className = 'page-btn';
+                nextBtn.textContent = '→';
+                nextBtn.disabled = currentPage === totalPages;
+                nextBtn.addEventListener('click', () => {
+                    if (currentPage < totalPages) { currentPage++; renderReviews(); }
+                });
+                pagination.appendChild(nextBtn);
+            }
+
+            async function loadReviews() {
+                try {
+                    const res = await fetch('/api/reviews');
+                    if (res.ok) {
+                        reviews = await res.json();
+                        renderReviews();
+                    }
+                } catch (e) {
+                    console.error('Ошибка загрузки отзывов', e);
+                }
+            }
+
+            openBtn.addEventListener('click', () => modal.classList.add('active'));
+            closeBtn.addEventListener('click', () => modal.classList.remove('active'));
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) modal.classList.remove('active');
+            });
+
+            form.addEventListener('submit', async function (e) {
+                e.preventDefault();
+
+                const name = document.getElementById('review-name').value.trim();
+                const rating = parseInt(document.getElementById('review-rating').value, 10);
+                const text = document.getElementById('review-text').value.trim();
+
+                if (!name || !rating || !text) return;
+
+                const payload = {
+                    author: name.startsWith('@') ? name : '@' + name,
+                    rating: rating,
+                    text: '«' + text + '»'
+                };
+
+                try {
+                    const res = await fetch('/api/reviews', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (res.ok) {
+                        form.reset();
+                        modal.classList.remove('active');
+                        currentPage = 1;
+                        await loadReviews();
+                        grid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    } else {
+                        alert('Не удалось сохранить отзыв');
+                    }
+                } catch (e) {
+                    alert('Ошибка соединения');
+                }
+            });
+
+            loadReviews();
+        })();
+    </script>
+    <script src="widjet.js"></script>
+</body>
+</html>
