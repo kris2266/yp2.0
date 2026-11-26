@@ -32,7 +32,7 @@ body {
     bottom: -150px;
     width: clamp(90px, 12vw, 180px);
     height: clamp(90px, 12vw, 180px);
-    background-image: url('photos/flower.svg');
+    background-image: url('../photos/flower.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -90,7 +90,7 @@ body {
     display: block;
     width: clamp(34px, 4vw, 50px);
     height: clamp(34px, 4vw, 50px);
-    background-image: url('photos/user-icon.svg');
+    background-image: url('../photos/user-icon.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -101,7 +101,7 @@ body {
     width: clamp(55px, 9vw, 100px);
     height: clamp(55px, 9vw, 100px);
     z-index: 4;
-    background-image: url('photos/flower.svg');
+    background-image: url('../photos/flower.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -297,7 +297,7 @@ body {
     bottom: -150px;
     width: clamp(90px, 12vw, 160px);
     height: clamp(90px, 12vw, 160px);
-    background-image: url('photos/flower.svg');
+    background-image: url('../photos/flower.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -369,7 +369,7 @@ body {
     position: absolute;
     width: clamp(90px, 10vw, 130px);
     height: clamp(90px, 10vw, 130px);
-    background-image: url('photos/flower.svg');
+    background-image: url('../photos/flower.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -733,7 +733,7 @@ body {
     height: clamp(90px, 10vw, 130px);
     bottom: calc(clamp(90px, 10vw, 130px) / -2.7);
     right: calc(clamp(90px, 10vw, 130px) / -3.8);
-    background-image: url('photos/flower.svg');
+    background-image: url('../photos/flower.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -995,7 +995,7 @@ body {
     bottom: -150px;
     width: clamp(90px, 12vw, 160px);
     height: clamp(90px, 12vw, 160px);
-    background-image: url('photos/flower.svg');
+    background-image: url('../photos/flower.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
